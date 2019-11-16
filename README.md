@@ -1,6 +1,6 @@
 # smart-calculator
 
-please close or download smart-calculator project and run the following:
+please clone or download smart-calculator project and run the following:
 
 cd smart-calculator or open it using any angular or ionic supporting IDE
 
