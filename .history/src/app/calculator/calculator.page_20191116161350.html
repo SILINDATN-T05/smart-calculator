@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>calculator</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-label class="value">
+      {{value}}
+    </ion-label>
+  </ion-item>
+  <ion-grid>
+    <ion-row  *ngFor="let numGroup of numberGroups">
+      <ion-col *ngFor="let num of numGroup" size="4">
+        <ion-button (click)="onButtonPress(num)" class="calc-button">{{num}}</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

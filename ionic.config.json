@@ -1,0 +1,7 @@
+{
+  "name": "smart-calculator-ionic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
